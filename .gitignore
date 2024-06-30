@@ -1,6 +1,5 @@
 # Byte-compiled / optimized / DLL files
 data/
-Images/
 
 data/train/
 __pycache__/
