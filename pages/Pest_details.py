@@ -10,7 +10,7 @@ option = st.selectbox("## Select disease",
 if option == "late blight":
     st.header(":green[Late blight]")
 
-    st.image('D:/DeepLearning/PyTorch/DiseaseDetection/Images/late_blight.JPG', caption='Late blight')
+    st.image('./Images/late_blight.JPG', caption='Late blight')
 
     st.subheader("Symptoms")
     st.write('''
@@ -31,7 +31,7 @@ if option == "late blight":
 elif option == 'easy blight':
     st.header(":green[Early blight]")
 
-    st.image('D:/DeepLearning/PyTorch/DiseaseDetection/Images/early_blight.JPG', caption='Early blight')
+    st.image('./Images/early_blight.JPG', caption='Early blight')
 
     st.subheader("Symptoms")
     st.write('''
@@ -47,7 +47,7 @@ elif option == 'easy blight':
         ''')
 elif option == 'healthy':
     st.header("Healthy Potato leaf sample")
-    st.image('D:/DeepLearning/PyTorch/DiseaseDetection/Images/healthy.JPG', caption='Healthy leaf')
+    st.image('./Images/healthy.JPG', caption='Healthy leaf')
 
 else:
     st.markdown('Selection any option to see information')
