@@ -1,6 +1,9 @@
 # Byte-compiled / optimized / DLL files
 data/
 
+mlartifacts/
+mlruns/
+
 data/train/
 __pycache__/
 *.py[cod]
